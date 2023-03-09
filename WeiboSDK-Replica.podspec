@@ -114,7 +114,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.ios.vendored_libraries = "Framework/libWeiboSDK.a"
+  spec.vendored_libraries = "Framework/libWeiboSDK.a"
   # spec.framework  = "SomeFramework"
   spec.frameworks = "Photos", "ImageIO", "SystemConfiguration", "CoreText", "QuartzCore", "Security", "UIKit", "Foundation", "CoreGraphics", "CoreTelephony", "WebKit"
 
